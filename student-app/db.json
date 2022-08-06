@@ -1,0 +1,32 @@
+{
+    "students": [{
+            "studentId": 1,
+            "studentName": "Ayush Agrawal",
+            "studentEmailId": "07ayush0707@gmail.com",
+            "studentrollNo": 40,
+            "studentMobile": 8770835055,
+            "studentAddress": "Korba",
+            "studentPincode": 495677,
+            "studentGender": "Male"
+        },
+        {
+            "studentId": 2,
+            "studentName": "Ritik Dixit",
+            "studentEmailId": "ritik.dixit@gmail.com",
+            "studentrollNo": 61,
+            "studentMobile": 7000061030,
+            "studentAddress": "Bilaspur",
+            "studentPincode": 495677,
+            "studentGender": "Male"
+        }, {
+            "studentId": 3,
+            "studentName": "Ashika Sharma",
+            "studentEmailId": "ashikasharma1414@gmail.com",
+            "studentrollNo": 8,
+            "studentMobile": 8421935253,
+            "studentAddress": "Nagpur",
+            "studentPincode": 440012,
+            "studentGender": "Female"
+        }
+    ]
+}

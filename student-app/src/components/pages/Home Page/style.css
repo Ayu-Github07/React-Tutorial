@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: -moz-linear-gradient(90deg, rgba(233, 76, 161, 1) 0%, rgba(199, 74, 233, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(233, 76, 161, 1) 0%, rgba(199, 74, 233, 1) 100%);
+    background: linear-gradient(90deg, rgba(233, 76, 161, 1) 0%, rgba(199, 74, 233, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e94ca1", endColorstr="#c74ae9", GradientType=1);
+}
+
+.container1 {
+    width: 100%;
+    background: #fff;
+    margin-left: 30px;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.container1 .title {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.container1 .title a {
+    margin: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.container1.title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, rgba(233, 76, 161, 1) 0%, rgba(199, 74, 233, 1));
+}
+
+
+table {
+    margin-top: 40px;
+    position: relative;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(64, 64, 64, .7);
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+
+td,
+th {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+th {
+    background-color: #ba68c8;
+    color: #fafafa;
+    font-family: 'Open Sans', Sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+
+}
+
+tr {
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
